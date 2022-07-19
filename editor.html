@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171602257-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-171602257-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-THCB76P');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="editor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-THCB76P" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- <label class="frame" for="car">select your frame</label>
+    <select name="" class="frameval" id="frame">
+        <option value="square">square</option>
+        <option value="circle">circle</option>
+        <option value="rectangle">rectangle</option>
+    </select>
+    <br> -->
+    <h2>Make Your Simple poster Here.</h2>
+    <hr>
+    <div id ='frame'>
+    <label for="">Select Your Frame :</label>
+    <input type="radio" id ='squarebtn' name='frame' value ="square">
+    <label for="">Box</label>
+    <input type="radio" id = 'imagebtn' name='frame' value ='image'>
+    <label for="">Image</label>
+    <input type="radio" id = 'textbtn' name='frame' value ='text'>
+    <label for="">Text</label>
+
+    <!-- <button id='templatebtn'>select your template</button> -->
+    </div>
+    <hr>
+<div id="heightContainer">
+   
+</div>
+<hr>
+   
+    <div id="container"> </div>
+
+
+</body>
+<script src="editor.js"></script>
+<!-- <script src="D Word2.js"></script> -->
+
+</html>
